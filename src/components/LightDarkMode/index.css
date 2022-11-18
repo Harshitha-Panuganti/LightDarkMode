@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.lightdark-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-color: #000000;
+}
+.light-container {
+  text-align: center;
+  border-radius: 12px;
+  padding: 24px;
+}
+.heading {
+  text-align: center;
+  padding-top: 25px;
+}
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.button {
+  font-size: 16px;
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+}
